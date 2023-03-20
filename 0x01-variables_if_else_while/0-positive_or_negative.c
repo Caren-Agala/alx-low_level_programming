@@ -1,6 +1,11 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<time.h>
+/**
+ * main -determine if the random generated number is -ve, +ve or zero
+ *
+ * Return: 0 on success
+ */
 
 int main(void)
 {
