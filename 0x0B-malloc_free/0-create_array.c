@@ -8,15 +8,16 @@
  * Return: pointer to array, NULL if fail
  *
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *stri;
 	unsigned int n;
 
 	stri = malloc(sizeof(char) * size);
-	if (size == 0 || str == NULL)
+	if (size == 0 || stri == NULL)
 		return (NULL);
 
 	for (n = 0; n < size; n++)
 		stri[n] = c;
 	return (stri);
+}
