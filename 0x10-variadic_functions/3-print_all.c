@@ -37,7 +37,7 @@ void print_all(const char * const format, ...)
 				temp = va_arg(allParameters, char*);
 				if (temp != NULL)
 				{
-					printf("%s", tempy);
+					printf("%s", temp);
 					break;
 				}
 				printf("(nil)");
